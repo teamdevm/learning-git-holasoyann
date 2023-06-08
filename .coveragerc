@@ -1,0 +1,6 @@
+[run]
+source = test_app_cc
+omit = 
+    tests/*
+    autoapp.py
+
