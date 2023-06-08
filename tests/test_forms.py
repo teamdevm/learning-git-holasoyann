@@ -1,8 +1,13 @@
 # -*- coding: utf-8 -*-
 """Test forms."""
 
+<<<<<<< HEAD
 from test_app_cc.public.forms import LoginForm
 from test_app_cc.user.forms import RegisterForm
+=======
+from testcc.public.forms import LoginForm
+from testcc.user.forms import RegisterForm
+>>>>>>> origin/feature
 
 
 class TestRegisterForm:

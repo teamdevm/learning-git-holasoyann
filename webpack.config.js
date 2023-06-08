@@ -33,7 +33,11 @@ module.exports = {
   output: {
     chunkFilename: "[id].js",
     filename: "[name].bundle.js",
+<<<<<<< HEAD
     path: path.join(__dirname, "test_app_cc", "static", "build"),
+=======
+    path: path.join(__dirname, "testcc", "static", "build"),
+>>>>>>> origin/feature
     publicPath: "/static/build/"
   },
   resolve: {

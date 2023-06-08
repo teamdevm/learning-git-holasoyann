@@ -6,8 +6,13 @@ import logging
 import pytest
 from webtest import TestApp
 
+<<<<<<< HEAD
 from test_app_cc.app import create_app
 from test_app_cc.database import db as _db
+=======
+from testcc.app import create_app
+from testcc.database import db as _db
+>>>>>>> origin/feature
 
 from .factories import UserFactory
 

@@ -3,8 +3,13 @@
 from factory import Sequence
 from factory.alchemy import SQLAlchemyModelFactory
 
+<<<<<<< HEAD
 from test_app_cc.database import db
 from test_app_cc.user.models import User
+=======
+from testcc.database import db
+from testcc.user.models import User
+>>>>>>> origin/feature
 
 
 class BaseFactory(SQLAlchemyModelFactory):

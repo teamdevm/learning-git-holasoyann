@@ -5,7 +5,11 @@ See: http://webtest.readthedocs.org/
 """
 from flask import url_for
 
+<<<<<<< HEAD
 from test_app_cc.user.models import User
+=======
+from testcc.user.models import User
+>>>>>>> origin/feature
 
 from .factories import UserFactory
 

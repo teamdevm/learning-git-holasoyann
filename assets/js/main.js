@@ -1,5 +1,9 @@
 /*
+<<<<<<< HEAD
  * Main Javascript file for test_app_cc.
+=======
+ * Main Javascript file for testcc.
+>>>>>>> origin/feature
  *
  * This file bundles all of your javascript together using webpack.
  */

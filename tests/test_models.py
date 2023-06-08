@@ -4,7 +4,11 @@ import datetime as dt
 
 import pytest
 
+<<<<<<< HEAD
 from test_app_cc.user.models import Role, User
+=======
+from testcc.user.models import Role, User
+>>>>>>> origin/feature
 
 from .factories import UserFactory
 

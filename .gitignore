@@ -49,7 +49,11 @@ env/
 /node_modules/
 
 # webpack-built files
+<<<<<<< HEAD
 /test_app_cc/static/build/
+=======
+/testcc/static/build/
+>>>>>>> origin/feature
 
 # Configuration
 .env

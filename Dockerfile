@@ -19,7 +19,11 @@ COPY package.json ./
 RUN npm install
 
 COPY webpack.config.js autoapp.py ./
+<<<<<<< HEAD
 COPY test_app_cc test_app_cc
+=======
+COPY testcc testcc
+>>>>>>> origin/feature
 COPY assets assets
 COPY .env.example .env
 RUN npm run-script build
@@ -34,7 +38,11 @@ RUN chown -R sid:sid /app
 USER sid
 ENV PATH="/home/sid/.local/bin:${PATH}"
 
+<<<<<<< HEAD
 COPY --from=builder --chown=sid:sid /app/test_app_cc/static /app/test_app_cc/static
+=======
+COPY --from=builder --chown=sid:sid /app/testcc/static /app/testcc/static
+>>>>>>> origin/feature
 COPY requirements requirements
 RUN pip install --no-cache --user -r requirements/prod.txt
 

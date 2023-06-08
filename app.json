@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
    "name": "test_app_cc",
+=======
+   "name": "testcc",
+>>>>>>> origin/feature
    "env": {
       "SECRET_KEY": {
          "description": "SECRET_KEY.",

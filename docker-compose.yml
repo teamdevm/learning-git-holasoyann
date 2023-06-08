@@ -1,8 +1,13 @@
 version: "3.6"
 
 x-build-args: &build_args
+<<<<<<< HEAD
   INSTALL_PYTHON_VERSION: "3.7.8"
   INSTALL_NODE_VERSION: "13.14.0"
+=======
+  INSTALL_PYTHON_VERSION: ""
+  INSTALL_NODE_VERSION: ""
+>>>>>>> origin/feature
 
 x-default-volumes: &default_volumes
   volumes:
@@ -17,7 +22,11 @@ services:
       target: development
       args:
         <<: *build_args
+<<<<<<< HEAD
     image: "test_app_cc-development"
+=======
+    image: "testcc-development"
+>>>>>>> origin/feature
     ports:
       - "8080:5000"
       - "2992:2992"
@@ -29,7 +38,11 @@ services:
       target: production
       args:
         <<: *build_args
+<<<<<<< HEAD
     image: "test_app_cc-production"
+=======
+    image: "testcc-production"
+>>>>>>> origin/feature
     ports:
       - "8080:5000"
     environment:
@@ -49,7 +62,11 @@ services:
     environment:
       FLASK_ENV: production
       FLASK_DEBUG: 0
+<<<<<<< HEAD
     image: "test_app_cc-manage"
+=======
+    image: "testcc-manage"
+>>>>>>> origin/feature
     stdin_open: true
     tty: true
     <<: *default_volumes

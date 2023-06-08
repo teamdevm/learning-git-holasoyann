@@ -5,7 +5,11 @@ from flask_login import UserMixin
 from sqlalchemy import text
 from sqlalchemy.orm.exc import ObjectDeletedError
 
+<<<<<<< HEAD
 from test_app_cc.database import Column, PkModel, db
+=======
+from testcc.database import Column, PkModel, db
+>>>>>>> origin/feature
 
 
 class ExampleUserModel(UserMixin, PkModel):
