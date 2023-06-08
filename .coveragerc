@@ -1,0 +1,10 @@
+[run]
+<<<<<<< HEAD
+source = test_app_cc
+=======
+source = testcc
+>>>>>>> origin/feature
+omit = 
+    tests/*
+    autoapp.py
+
